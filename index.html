@@ -18,6 +18,11 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
 
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+
     <!-- Personal Styles -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -29,41 +34,25 @@
         <!-- apresentação -->
         <div class="card col s10 offset-s1 m6 offset-m2 l8 offset-l2 hoverable z-depth-5" id="presentation-card">
             <div class="card-image col s8 offset-s2 m6 l4 xl3 waves-effect waves-block waves-light">
-                <img class="activator responsive-img" id="cardImage"
-                    src="images/36868099_2507649752594658_2033356677499060224_n.jpg">
+                <img class="activator responsive-img" id="cardImage" src="images/foto.jpg">
             </div>
             <div class="card-content white-text" id="presentation-content">
-                <span class="card-title activator center">Alexandre Rodrigues da Silva</span>
+                <span class="card-title activator center" id="name-text">Alexandre Rodrigues da Silva</span>
                 <br>
-                <p class="" style="text-indent: 15%">Brasileiro</p>
-                <p class="" style="text-indent: 18%">Casado</p>
-                <p class="" style="text-indent: 20%">35 anos</p>
-                <p class="" style="text-indent: 22%">Pinhais-PR</p>
-                <p class="" style="text-indent: 24%"><a href="tel:41984167733" class="white-text"
-                        style="text-decoration: none;">Contato: 041 9 8416-7733 <i class="fa fa-whatsapp"></i></a></p>
-                <p class="" style="text-indent: 26%"><a href="tel:41999444790" class="white-text"
-                        style="text-decoration: none;"> Recado:
-                        041 9 9944-4790 <i class="fa fa-whatsapp"></i></a></p>
+                <p class="presentation-text">Coordenador Técnico, Programador</p>
                 <br>
-                <p style="text-indent: 28%"><a href="mailto:btt.ale@gmail.com" class="white-text"
-                        style="text-decoration: none;">Email:
-                        btt.ale@gmail.com</a></p>
+                <span class="right">
+                    <a href="mailto:btt.ale@gmail.com" style="text-decoration: none;"><i class="fa fa-envelope" style="font-size: 40px; margin-right: 10px; color:cornflowerblue;"></i></a>
+                    <a href="https://www.linkedin.com/in/alexandre-silva-02267072" target="_blank"><i class="fa fa-linkedin-square" style="font-size:40px; margin-right: 10px; color: cornflowerblue;"></i></a>
+                    <a href="https://github.com/alexandre-rodrigues-silva" target="_blank"><i class="fa fa-github" style="font-size:40px; color: cornflowerblue;"></i></a>
+                </span>
                 <br>
-                <span class="right"><a href="https://www.linkedin.com/in/alexandre-silva-02267072" target="_blank"><i
-                            class="fa fa-linkedin-square" style="font-size:60px; margin-right: 50px;"></i></a></span>
-                <br>
-                <span class="white-text"><a class="btn-floating activator btn-large waves-effect waves-light blue"><i
-                            class="material-icons">add</i></a> Saiba mais sobre mim...
+                <span class="white-text"><a class="btn-floating activator btn waves-effect waves-light blue"><i
+                            class="material-icons">add</i></a><span style="margin-left: 10px;">Sobre mim</span>
                 </span>
                 <br>
                 <br>
-                <a href="docs/Alexandre Rodrigues da Silva.pdf" target="_blank" class="right" id="btn-download">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Download Currículo PDF
-                </a>
+                <a class="waves-effect waves-light btn-small right blue" href="docs/Alexandre Rodrigues da Silva.pdf" target="_blank" style="margin-bottom: 25px;">Download Currículo PDF</a>
             </div>
             <div class="card-reveal grey lighten-2">
                 <span class="card-title grey-text text-darken-4">Sobre mim<i
@@ -115,77 +104,77 @@
                 <div class="">
                     <div id="gestao">
                         <h6>Comprometimento</h6>
-                        <div class="bar _90" data-skill="90%"></div>
+                        <div class="bar _90" data-skill=""></div>
                         <h6>Comunicação</h6>
-                        <div class="bar _95" data-skill="95%"></div>
+                        <div class="bar _95" data-skill=""></div>
                         <h6>Trabalho em Equipe</h6>
-                        <div class="bar _85" data-skill="85%"></div>
+                        <div class="bar _85" data-skill=""></div>
                         <h6>Indicadores</h6>
-                        <div class="bar _65" data-skill="65%"></div>
+                        <div class="bar _65" data-skill=""></div>
                         <h6>Visão de Negócio</h6>
-                        <div class="bar _90" data-skill="90%"></div>
+                        <div class="bar _90" data-skill=""></div>
                         <h6>Atendimento ao Cliente/Suporte</h6>
-                        <div class="bar _90" data-skill="95%"></div>
+                        <div class="bar _90" data-skill=""></div>
                         <br>
                     </div>
                     <div id="tecnico">
                         <h6>Gestão Manutenção</h6>
-                        <div class="bar _75" data-skill="75%"></div>
+                        <div class="bar _75" data-skill=""></div>
                         <h6>Mecânica</h6>
-                        <div class="bar _70" data-skill="70%"></div>
+                        <div class="bar _70" data-skill=""></div>
                         <h6>Elétrica/Automação</h6>
-                        <div class="bar _75" data-skill="75%"></div>
+                        <div class="bar _75" data-skill=""></div>
                         <h6>Pneumática</h6>
-                        <div class="bar _65" data-skill="65%"></div>
+                        <div class="bar _65" data-skill=""></div>
                         <h6>Hidráulica</h6>
-                        <div class="bar _55" data-skill="55%"></div>
+                        <div class="bar _55" data-skill=""></div>
                         <h6>Refrigeração</h6>
-                        <div class="bar _85" data-skill="85%"></div>
+                        <div class="bar _85" data-skill=""></div>
                         <br>
                     </div>
                     <div id="desenvolvimento">
                         <h6>HTML/CSS</h6>
-                        <div class="bar _65" data-skill="65%"></div>
+                        <div class="bar _65" data-skill=""></div>
                         <h6>Javascript</h6>
-                        <div class="bar _60" data-skill="60%"></div>
+                        <div class="bar _60" data-skill=""></div>
                         <h6>PHP</h6>
-                        <div class="bar _70" data-skill="70%"></div>
+                        <div class="bar _70" data-skill=""></div>
                         <h6>C#</h6>
-                        <div class="bar _80" data-skill="80%"></div>
+                        <div class="bar _80" data-skill=""></div>
                         <h6>ASP .NET CORE</h6>
-                        <div class="bar _60" data-skill="60%"></div>
+                        <div class="bar _60" data-skill=""></div>
                         <h6>C/C++</h6>
-                        <div class="bar _65" data-skill="65%"></div>
+                        <div class="bar _65" data-skill=""></div>
                         <h6>Banco de Dados SQL (MySql e SQL Server)</h6>
-                        <div class="bar _70" data-skill="70%"></div>
+                        <div class="bar _70" data-skill=""></div>
                         <br>
                     </div>
                     <div id="habilidades">
                         <h6>Microsoft Office</h6>
-                        <div class="bar _75" data-skill="75%"></div>
+                        <div class="bar _75" data-skill=""></div>
                         <span>
                             <p>- Destaque para utilização do Excel com uso de programação VBA para desenvolvimento de
                                 macros e rotinas de automatização.</p>
                         </span>
                         <h6>Autocad 2D</h6>
-                        <div class="bar _75" data-skill="75%"></div>
+                        <div class="bar _75" data-skill=""></div>
                         <span>
                             <p>- Desenvolvimento, dimensionamento, leitura e implementação de projetos elétricos
                                 residenciais,
                                 industriais e principalmente de máquinas e dispositivos.</p>
                         </span>
                         <h6>Inversores, softstarts e CLP's</h6>
-                        <div class="bar _80" data-skill="80%"></div>
+                        <div class="bar _80" data-skill=""></div>
                         <span>
                             <p>- Dimensionamento, parametrização e implementação de drives de potência e lógica de
                                 automatização em máquinas e equipamentos.</p>
                         </span>
                         <h6>Conhecimentos na NR10</h6>
-                        <div class="bar _80" data-skill="80%"></div>
+                        <div class="bar _80" data-skill=""></div>
                         <h6>Conhecimentos na NR35</h6>
-                        <div class="bar _60" data-skill="60%"></div>
+                        <div class="bar _60" data-skill=""></div>
                         <h6>Conhecimentos na NR12</h6>
-                        <div class="bar _70" data-skill="70%"></div>
+                        <div class="bar _70" data-skill=""></div>
                         <br>
                         <h5>Habilidades pessoais</h5>
                         <p><strong>- Determinado.</strong></p>
